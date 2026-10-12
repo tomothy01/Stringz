@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <style>
+        body {
+            background-color: RGB(135, 206, 250);
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .card {
+            background-color: #ffffff;
+            width: 320px;
+            border-radius: 16px;
+            padding: 24px;
+            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.5);
+            box-sizing: border-box;
+            text-align: left;
+        }
+
+        .card h2 {
+            font-size: 22px;
+            color: #111;
+            margin-top: 0;
+            margin-bottom: 20px;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+        }
+
+        .input-group label {
+            display: block;
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: 12px 14px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-sizing: border-box;
+            outline: none;
+            transition: border-color 0.2s;
+            margin-bottom: 12px;
+        }
+
+        .input-group input:focus {
+            border-color: rgb(24, 234, 4);
+        }
+
+        .btn-enter {
+            display: block;
+            width: 100%;
+            background-color: rgb(24, 234, 4);
+            color: white;
+            text-align: center;
+            padding: 14px 0;
+            border-radius: 12px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            box-shadow: 0 4px 12px rgb(28, 162, 16);
+            box-sizing: border-box;
+            transition: background-color 0.2s;
+        }
+
+        .btn-enter:hover {
+            background-color: rgb(24, 234, 4);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+        <h2><u>Log in</u></h2>
+        <h2>Welcome back!</h2>
+        
+        <div class="input-group">
+            <label for="username-input">Username</label>
+            <input type="text" id="username-input" placeholder="Username">
+            
+            <label for="password-input">Password</label>
+            <input type="password" id="password-input" placeholder="Password">
+        </div>
+        
+        <a href="#" class="btn-enter">Log in</a>
+    </div>
+
+</body>
+
+</html>
